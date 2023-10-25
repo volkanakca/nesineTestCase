@@ -56,11 +56,6 @@ public class RestCall extends PageGenarator {
                 playedCountList.add(bet.get("PlayedCount").asInt());
                 codeList.add(bet.get("MarketNo").asInt());
             }
-            System.out.println(playedCountList);
-            System.out.println(uiPlayedCount);
-            System.out.println(codeList);
-            System.out.println(uiMathcCode);
-
 
             if (uiPlayedCount.size() != playedCountList.size() || uiMathcCode.size() != codeList.size()) {
                 fail("List sizes are different. No comparison can be made.");
