@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Sets" verbose="1"  parallel="classes" thread-count="2">
+
+    <test name="src/test/java/features/tests">
+        <classes>
+            <class name="com.NesineTest.automation.runner.RunnerTest"/>
+        </classes>
+    </test>
+
+</suite>
