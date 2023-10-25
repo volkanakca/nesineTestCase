@@ -1,4 +1,7 @@
-Selenium, Cucumber, Java, Maven, httpclient araçlar kullanılmıştır.
+Selenium, Cucumber, Java, Maven, httpclient araçları kullanılmıştır.
+
 Userlar users file'ın altında json dosyasından okunmaktadır.pom.xml den bilgi güvenliği açısından okunmamıştır. Kullanıcı adı ve şifre proje içerisine eklenmemiştir.
-2. senaryo eklenmiştir, senaryolar paralel çalışmaktadır.
+
+Senaryolar paralel çalışabilmektedir.2. senaryo eklenmiştir.
+
 Allure report eklenmiştir.
